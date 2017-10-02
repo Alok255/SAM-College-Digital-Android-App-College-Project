@@ -14,7 +14,7 @@
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
+         location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -26,17 +26,17 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="Complain" />
+            android:label="Registration" />
         <activity
             android:name=".RegistrationActivity"
             android:label="Login" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".CollegeActivity"
             android:label="Home" />
         <activity
             android:name=".BusActivity"
-            android:label="Appreciation" />
+            android:label="BUS" />
         <activity
             android:name=".GalleryActivity"
             android:label="College Gallery" />
@@ -46,7 +46,7 @@
              Note that the API key is linked to the encryption key used to sign the APK.
              You need a different API key for each encryption key, including the release key that is used to
              sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -68,7 +68,7 @@
             android:label="Registration" />
         <activity
             android:name=".Login2Activity"
-            android:label=" Donation" />
+            android:label="Student Registration" />
         <activity android:name=".ServiceDetailActivity" />
         <activity
             android:name=".MyServicesActivity"
@@ -85,38 +85,36 @@
         </activity>
         <activity
             android:name=".StuLeaveActivity"
-             />
+            android:label="Send Leave Application" />
         <activity
             android:name=".AttendanceActivity"
-            />
+            android:label="Attendance" />
         <activity
             android:name=".ViewAttActivity"
-            />
+            android:label="Ask Questions" />
         <activity
             android:name=".NotifActivity"
-            />
+            android:label="View Notification" />
         <activity
             android:name=".StudyMatActivity"
-            />
+            android:label="Download Study Material" />
         <activity
             android:name=".SendNotifActivity"
-            />
+            android:label="Send ToDay Notification" />
         <activity
             android:name=".UploadActivity"
-           />
+            android:label="Upload Study Material" />
         <activity
             android:name=".AproveActivity"
-          />
+            android:label="Approve Leave Application" />
         <activity
             android:name=".ViewActivity"
-             />
+            android:label="Student&apos;s Attendance" />
         <activity
             android:name=".QueAnsActivity"
-            />
-        <activity android:name=".FeedBackActivity"
-            android:label="FeedBack">
-
-        </activity>
+            android:label="Question Answer" />
+        <activity android:name=".YoutubeActivity" />
+        <activity android:name=".CampusActivity"></activity>
     </application>
 
 </manifest>
