@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Software\Android\Androidnew\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_5108f1c76c862d7e503325f9c98cdc7d110e39bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_3904fcbabd4b09e7ea66d630f3d231389fb51c23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_45b77b0f15bd87082075c30dd8a8f15e943d18af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_491652d694f23071bc07561b96b3e41a1890b468.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_8fc301554fb013e6128212fedf2d99ffcea1f52c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.8.0_c0bc63c46ac416fd5c4db5b4f2d401c52c63f992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_164b50631a8e77de9205c26f62521ec7c75e5d06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_e5f31247074bb755c2dea849cf8ca663d39d43bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_753ead43e2e65594ccdace26916a74210e5fa97a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_42d964c5cef06f947fe882053220227ccf78f1d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_fe1e17e4a75f76fb46ae32d48841bd16dba1b2bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_5bcce6ee013bb2e7b2414f1e079e62d56fa370d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_2e1e703d3b72948373a829deda0e6ab089840118.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\Android Project\sam digtal\SamCet\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="G:\Android Project\sam digtal\SamCet\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.8.0_b24ff94214bde744b107a1e83f2b832acae39d02.jar" />
+    </item>
+
+</items>

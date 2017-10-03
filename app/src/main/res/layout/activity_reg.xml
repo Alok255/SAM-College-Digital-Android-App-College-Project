@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_bg"
+    tools:context="sqlite.com.samcet.RegActivity">
+    <ImageView
+        android:background="#e3330d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <LinearLayout
+       android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/tec"
+            android:layout_weight="0.50"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/businessman1"/>
+
+    <ImageButton
+        android:id="@+id/stu"
+        android:layout_weight="0.50"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/graduate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="Teacher Registration"
+            android:layout_weight="0.50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:text="Student Registration"
+            android:textSize="15sp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_weight="0.50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

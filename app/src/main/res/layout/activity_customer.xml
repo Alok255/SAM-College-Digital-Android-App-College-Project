@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swachh Bharat Abhiyan"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_about_us"
+        android:textColor="#EC3838"
+        android:textSize="18sp"
+        android:shadowColor="@android:color/black"
+        android:typeface="serif" />
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:autoLink="all"
+        android:gravity="center"
+        android:text="@string/about_dev"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="12sp"
+        />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="#e3330d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Topic Name"
+            />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Ente Topic Name"
+            android:cursorVisible="true"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Date"
+            />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="DD/MM/YY-YY-YYYY"
+            android:cursorVisible="true"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:elevation="4dp"
+            android:padding="20dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Subject Name"
+            />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:hint="Enter Subject Name "
+            android:cursorVisible="true"
+            />
+
+
+        <ImageButton
+            android:id="@+id/buttonRegister"
+            android:src="@drawable/submit_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableLayout>
+</ScrollView>

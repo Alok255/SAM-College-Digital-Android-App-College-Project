@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:background="@drawable/app_bg"
+   android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="sqlite.com.samcet.HomeActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logos"/>
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/home1"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_teamwork"
+            android:textSize="20sp"
+
+            android:padding="10dp"
+            />
+
+        <ImageButton
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:id="@+id/gall"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_laptop"
+            android:textSize="20sp"
+
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:text="            Introduction" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30"
+            android:text="            Complain"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/user_reg"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_tasks"
+            android:textSize="20sp"
+
+            android:padding="10dp"
+            />
+        <ImageButton
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:id="@+id/user_login"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_coin"
+            android:textSize="20sp"
+
+            android:padding="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:text="             FeedBack" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30"
+            android:text="             Donation"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/bus"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_appreciation"
+            android:text="Enter you name"
+            android:cursorVisible="true"
+            />
+
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_statistics_1"
+            android:text="Enter you name"
+            android:cursorVisible="true"
+            />    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".30"
+            android:text="              Appreciation" />
+        <TextView
+            android:text="             It's Need "
+            android:layout_weight=".30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
